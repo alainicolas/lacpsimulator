@@ -33,7 +33,7 @@ def send_lacp_response(packet, iface, src_mac):
         actor_type=1,
         actor_length=20,
         actor_system_priority=0xffff,
-        actor_system="e8:eb:d3:3a:ea:78",
+        actor_system="aa:bb:cc:aa:bb:cc",
         actor_key=0x005d,
         actor_port_priority=0xff,
         actor_port_number=actor_port_number,  # Use the dynamically assigned port number
