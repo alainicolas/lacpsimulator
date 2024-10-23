@@ -9,7 +9,7 @@ https://bst.cisco.com/bugsearch/bug/CSCwj01605?rfs=qvred
 
 You can launch both script on different server to simulate suspended LACP state due to different port priority.
 
-Dont forget to hardcore your own data:  
+Dont forget to hardcode your own data:  
 actor_system_priority=0xffff  
 actor_system="aa:bb:cc:aa:bb:cc"  
 actor_port_priority=0xff  
